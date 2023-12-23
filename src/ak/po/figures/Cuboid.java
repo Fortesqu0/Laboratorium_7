@@ -17,7 +17,6 @@ public class Cuboid extends Solid {
     }
 
 
-
     public boolean equals(Cuboid cuboid) {
         super.equals(cuboid);
         return Math.abs(a - cuboid.a) < EPSILON &&
@@ -26,15 +25,16 @@ public class Cuboid extends Solid {
 
 
     }
+
     @Override
-    public double volume(){
+    public double volume() {
         return a * b * c;
 
     }
 
 
     @Override
-    public double surfaceArea(){
+    public double surfaceArea() {
         return 2 * (a * b + b * c + c * a);
     }
 
