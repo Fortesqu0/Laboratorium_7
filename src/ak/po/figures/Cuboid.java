@@ -11,6 +11,7 @@ public class Cuboid extends Solid {
 
     public Cuboid(double a, double b, double c, Unit unit) {
         super(unit);
+        GreaterThanZeroValidator.getInstance().isValid(a,b,c);
         this.a = a;
         this.b = b;
         this.c = c;

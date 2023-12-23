@@ -11,6 +11,7 @@ public class Cone extends Solid {
 
     public Cone (double radius, double height, Unit unit){
         super(unit);
+        GreaterThanZeroValidator.getInstance().isValid(radius,height);
         this.radius = radius;
         this.height = height;
 
