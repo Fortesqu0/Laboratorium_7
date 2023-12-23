@@ -11,15 +11,16 @@ public class Cuboid extends Solid {
 
     public Cuboid(double a, double b, double c, Unit unit) {
         super(unit);
-        GreaterThanZeroValidator.getInstance().isValid(a,b,c);
+        GreaterThanZeroValidator.getInstance().isValid(a, b, c);
         this.a = a;
         this.b = b;
         this.c = c;
+
     }
 
 
     public boolean equals(Cuboid cuboid) {
-        super.equals(cuboid);
+        if (!super.equals(cuboid)) return false;
         return Math.abs(a - cuboid.a) < EPSILON &&
                 Math.abs(b - cuboid.b) < EPSILON &&
                 Math.abs(c - cuboid.c) < EPSILON;
@@ -39,5 +40,9 @@ public class Cuboid extends Solid {
         return 2 * (a * b + b * c + c * a);
     }
 
-
+    @Override
+    public String toString() {
+        return super.toString() +
+                "\nBok a: " + this.a + "\nBok b: " + this.b + "\nBok c: " + this.c;
+    }
 }

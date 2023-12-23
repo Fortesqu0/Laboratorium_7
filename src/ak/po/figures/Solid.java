@@ -3,7 +3,7 @@ package ak.po.figures;
 public abstract class Solid {
 
 
-    enum Unit {
+    public enum Unit {
         mm("mm"),
         cm("cm"),
         dm("dm"),
@@ -35,7 +35,7 @@ public abstract class Solid {
     }
 
     public boolean equals(Solid solid) {
-      return unit == solid.unit;
+        return unit == solid.unit;
 
     }
 
@@ -43,8 +43,8 @@ public abstract class Solid {
 
     public abstract double surfaceArea();
 
-
-
-
-
+    @Override
+    public String toString() {
+        return "Measurement unit: " + unit;
+    }
 }

@@ -4,7 +4,7 @@ public class GreaterThanZeroValidator {
 
     private static GreaterThanZeroValidator INSTANCE = new GreaterThanZeroValidator();
 
-    private final String lessThanZero = "Wpisana wartośc musi być większa od 0";
+    private final String lessThanZero = "Wpisana wartość musi być większa od 0";
 
 
     public static GreaterThanZeroValidator getInstance() {
