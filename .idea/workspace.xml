@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4a174282-f62e-400e-bfa3-78a3b8012dc4" name="Changes" comment="Zadanie 5">
+    <list default="true" id="4a174282-f62e-400e-bfa3-78a3b8012dc4" name="Changes" comment="GitHub">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ak/po/figures/GreaterThanZeroValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ak/po/figures/GreaterThanZeroValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +20,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="master" />
+        <entry key="$PROJECT_DIR$" value="dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -101,7 +102,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703361468263</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="GitHub">
+      <created>1703537647821</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537647821</updated>
+    </task>
+    <task id="LOCAL-00007" summary="GitHub">
+      <created>1703537825189</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703537825189</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -133,6 +148,7 @@
     <MESSAGE value="Zadanie 2" />
     <MESSAGE value="Zadanie 3" />
     <MESSAGE value="Zadanie 4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Zadanie 4" />
+    <MESSAGE value="GitHub" />
+    <option name="LAST_COMMIT_MESSAGE" value="GitHub" />
   </component>
 </project>

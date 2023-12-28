@@ -8,7 +8,7 @@ public class GreaterThanZeroValidator {
 
 
     public static GreaterThanZeroValidator getInstance() {
-        return new GreaterThanZeroValidator();
+        return INSTANCE;
     }
 
 
@@ -31,6 +31,8 @@ public class GreaterThanZeroValidator {
             }
         }
     }
+
+    private GreaterThanZeroValidator(){}
 
 
 }
